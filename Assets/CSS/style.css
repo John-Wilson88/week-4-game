@@ -1,0 +1,61 @@
+body {
+	background-image: url("green_dust_scratch.png");
+}
+
+#title {
+	font-size: 35px;
+	color: white;
+	background-color: grey;
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+}
+
+#directions {
+	background-color: grey;
+	padding: 5px;
+	margin: 10px;
+}
+
+#directions, p {
+	color: white;
+}
+
+#randomNumber {
+	background-color: grey;
+	color: white;
+	font-size: 20px;
+	padding: 5px;
+	margin: 10px;
+}
+
+#wins {
+	background-color: grey;
+	color: white;
+	font-size: 20px;
+	padding: 5px;
+	margin: 10px;
+}
+
+#losses {
+	background-color: grey;
+	color: white;
+	font-size: 20px;
+	padding: 5px;
+	margin: 10px;
+}
+
+#userScore {
+	background-color: grey;
+	color: white;
+	font-size: 20px;
+	padding: 5px;
+	margin: 10px;
+}
+
+#crystalImages {
+	background-color: grey;
+	padding: 5px;
+	margin: 10px;
+}
+
