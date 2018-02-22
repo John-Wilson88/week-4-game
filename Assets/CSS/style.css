@@ -11,51 +11,67 @@ body {
 	text-align: center;
 }
 
+
 #directions {
-	background-color: grey;
-	padding: 5px;
-	margin: 10px;
+	background-color: rgb(70, 72, 79);
 }
 
 #directions, p {
-	color: white;
+	color: rgb(255, 255, 255);
+	font-size: 16pt;
 }
+
 
 #randomNumber {
-	background-color: grey;
-	color: white;
-	font-size: 20px;
-	padding: 5px;
-	margin: 10px;
+
+	display: inline-block;
 }
 
-#wins {
-	background-color: grey;
-	color: white;
+#target {
+	background-color: rgb(70, 72, 79);
+	color: rgb(255, 255, 255);
 	font-size: 20px;
-	padding: 5px;
-	margin: 10px;
+}
+
+#wins_losses {
+	background-color: rgb(70, 72, 79);
+	color: rgb(255, 255, 255);
+	font-size: 20px;
 }
 
 #losses {
-	background-color: grey;
-	color: white;
-	font-size: 20px;
-	padding: 5px;
-	margin: 10px;
+	display: inline-block;
+}
+
+#wins {
+	display: inline-block;
 }
 
 #userScore {
-	background-color: grey;
-	color: white;
+	background-color: rgb(70, 72, 79);
+	color: rgb(255, 255, 255);
 	font-size: 20px;
-	padding: 5px;
-	margin: 10px;
 }
 
 #crystalImages {
-	background-color: grey;
-	padding: 5px;
-	margin: 10px;
+	background-color: rgb(70, 72, 79);
+
 }
+
+.crysImage {
+	height: 128px;
+	width: 128px;
+	padding: 10px;
+}
+
+
+/* bootstrap CSS */
+
+#Backcolor {
+	background-color: rgb(70, 72, 79);
+	color: rgb(255, 255, 255);
+}
+
+
+
 

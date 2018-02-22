@@ -28,7 +28,7 @@ function checker() {
 
 	if (adder > randNum) {		
 		losses++;
-		document.getElementById("losses").innerHTML = "Losses: " + losses ;
+		document.getElementById("losses").innerHTML = losses;
 		adder = 0;
 
 		generateNums();	
@@ -37,7 +37,7 @@ function checker() {
 	if (adder === randNum) {
 
 		wins++;
-		document.getElementById("wins").innerHTML = "Wins: " + wins;
+		document.getElementById("wins").innerHTML = wins;
 		adder = 0;
 		
 		generateNums();
